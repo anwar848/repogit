@@ -1,0 +1,29 @@
+---
+- mystudents:
+  - name: anwar
+    phno: 8096458484
+    address:
+      door no: 99
+      street no: 07
+      pin: 524222
+
+  - name: ansar
+    phno: 6303748049
+    address:
+     door no: 99
+     street no: 22
+     pincode: 524222
+
+  - name: ansarr
+    phno: 6303748049
+    address:
+     street no: 00
+     door no: 22
+     pincode: 524222
+
+  - name: vinod
+    phno: 6303748049
+    address:
+     street no: 00
+     door no: 00
+     pincode: 00
