@@ -14,7 +14,7 @@
 
   - name: install wget
     apt: 
-      name: install wget
+      name: wget
       state: present
    
 
