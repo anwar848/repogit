@@ -11,7 +11,7 @@
 
   - name: i want start webserver on ubuntu server
     service: 
-       name: apache2
+       name: "{{mywebserverpackonubuntu}}"
        state: started
     when: ansible_os_family== "Debian"  
 
@@ -23,7 +23,7 @@
 
   - name: start webserver on RedHat ansible nodes
     service:
-      name: httpd
+      name: "{{mywebserverpackonredhat}}"
       state: started
     when: ansible_os_family =="RedHat"    
     
