@@ -1,11 +1,12 @@
 ---
-- hosts: 172.31.18.81
+- hosts: 172.31.11.172
   become: yes
   vars:
      myvar1: git
-     myvar2: wget
-     myvar3: tree
-  tasks:
-  - name: display myvar1 
-    debug: 
-       msg: "{{myvar1}}"
+     myvar2: tree
+     myvar3: wget
+  tasks: 
+    - name: i want disply myvar2
+      debug:
+        msg: "{{myvar2}}"
+   
