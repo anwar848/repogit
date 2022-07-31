@@ -3,5 +3,5 @@
 ---
 
 
-mywebserverpackonubuntu: apache333
-mywebserverpackonredhat: httpd
+mywebserverpackonubuntu: apache2
+mywebserverpackonredhat: httpdd
