@@ -13,12 +13,12 @@
     apt:
      name: apache2
      state: present
-    notify: startwebserver
 
   - name: copy dynamic files into ansible nodes
     template: 
       src: myindex.j2
       dest: /var/www/html/index.html
+    notify: startwebserver
 
   - name: download internet files into ansible nodes
     get_url:
