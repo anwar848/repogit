@@ -2,7 +2,4 @@
 - hosts: 172.31.11.172
   become: yes
   tasks: 
-  - name: create file 
-    file: 
-      path: /home/ubuntu/mytestfile
-      state: touch
+  - inculde_tasks: myfile.yml
