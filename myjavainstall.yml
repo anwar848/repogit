@@ -14,5 +14,4 @@
      name: "{{myjavapackonredhat}}"
      state: present
     when: ansible_os_family =="RedHat"
-    ignore_errors: True
     
