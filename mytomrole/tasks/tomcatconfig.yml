@@ -2,7 +2,7 @@
 - name: add tomcat admin user
   template:
       src: templates/mytomuser.j2
-      dest: sudo nano /opt/tomcat/conf/tomcat-users.xml
+      dest: /opt/tomcat/conf/tomcat-users.xml
 
 - name: change context xml file
   template: 
